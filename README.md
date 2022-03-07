@@ -1,3 +1,3 @@
 # data-structures
 
-A playground to play with data structure in python
+A playground where I play with data structure and algorithms in python
