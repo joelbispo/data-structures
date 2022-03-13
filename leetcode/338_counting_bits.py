@@ -11,3 +11,6 @@ class Solution:
             dp[i] = 1 + dp[i-offset]
         
         return dp
+
+
+print(Solution().countBits(2))
