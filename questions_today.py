@@ -13,7 +13,8 @@ already_answered = [
     52, 7, 31, 24,  2, 13,
     70, 11, 60, 69, 46, 22,
     21, 12, 58, 5, 29, 3,
-    50, 72, 34, 48, 16, 61
+    50, 72, 34, 48, 16, 61,
+    35, 45, 59, 40, 63, 67
 
 ]
 
@@ -26,4 +27,4 @@ print(len(already_answered))
 #print(choice([i for i in already_answered]))
 
 
-# print(choice([i for i in range(2, 77) if i not in already_answered]))
+#print(choice([i for i in range(2, 77) if i not in already_answered]))
