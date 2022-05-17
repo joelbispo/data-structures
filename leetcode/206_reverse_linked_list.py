@@ -15,13 +15,15 @@ class Solution:
         return prev
 
     def reverseListRecursive(self, head):
-        if not head or not head.next:
-            return None
-        reversedListHead = self.reverseListRecursive(head.next)
-        head.next.next = head
-        head.next = None
-        return reversedListHead
-
+        #recursive
+        def reverse(cur, prev):
+            if cur is None:
+                return prev
+            else:
+                next = cur.next
+                cur.next = prev
+                return reverse(next, cur)
+        return reverse(head, None)
         
 
         
