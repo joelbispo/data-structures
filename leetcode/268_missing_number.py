@@ -6,3 +6,7 @@ class Solution:
             res +=(i-nums[i])
             
         return res
+
+        
+
+
